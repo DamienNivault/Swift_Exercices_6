@@ -12,6 +12,10 @@
 		9F01A4DF20176B0E00663FA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F01A4DD20176B0E00663FA2 /* Main.storyboard */; };
 		9F01A4E120176B0E00663FA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F01A4E020176B0E00663FA2 /* Assets.xcassets */; };
 		9F01A4E420176B0E00663FA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F01A4E220176B0E00663FA2 /* LaunchScreen.storyboard */; };
+		9F01A4F420176EE600663FA2 /* Exercice_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01A4F120176EE600663FA2 /* Exercice_3.swift */; };
+		9F01A4F520176EE600663FA2 /* Exercice_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01A4F220176EE600663FA2 /* Exercice_5.swift */; };
+		9F01A4F620176EE600663FA2 /* Exercice_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01A4F320176EE600663FA2 /* Exercice_4.swift */; };
+		9F01A4FC20177CC100663FA2 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01A4FB20177CC100663FA2 /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		9F01A4E020176B0E00663FA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F01A4E320176B0E00663FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F01A4E520176B0E00663FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F01A4F120176EE600663FA2 /* Exercice_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Exercice_3.swift; path = ../../../Supinternet/Swift_2018/Exercice_3.swift; sourceTree = "<group>"; };
+		9F01A4F220176EE600663FA2 /* Exercice_5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Exercice_5.swift; path = ../../../Supinternet/Swift_2018/Exercice_5.swift; sourceTree = "<group>"; };
+		9F01A4F320176EE600663FA2 /* Exercice_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Exercice_4.swift; path = ../../../Supinternet/Swift_2018/Exercice_4.swift; sourceTree = "<group>"; };
+		9F01A4FB20177CC100663FA2 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +62,16 @@
 		9F01A4D820176B0E00663FA2 /* Exercice_6 */ = {
 			isa = PBXGroup;
 			children = (
+				9F01A4F120176EE600663FA2 /* Exercice_3.swift */,
+				9F01A4F320176EE600663FA2 /* Exercice_4.swift */,
+				9F01A4F220176EE600663FA2 /* Exercice_5.swift */,
 				9F01A4D920176B0E00663FA2 /* AppDelegate.swift */,
 				9F01A4DB20176B0E00663FA2 /* ViewController.swift */,
 				9F01A4DD20176B0E00663FA2 /* Main.storyboard */,
 				9F01A4E020176B0E00663FA2 /* Assets.xcassets */,
 				9F01A4E220176B0E00663FA2 /* LaunchScreen.storyboard */,
 				9F01A4E520176B0E00663FA2 /* Info.plist */,
+				9F01A4FB20177CC100663FA2 /* ModalViewController.swift */,
 			);
 			path = Exercice_6;
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F01A4DC20176B0E00663FA2 /* ViewController.swift in Sources */,
+				9F01A4F420176EE600663FA2 /* Exercice_3.swift in Sources */,
 				9F01A4DA20176B0E00663FA2 /* AppDelegate.swift in Sources */,
+				9F01A4F520176EE600663FA2 /* Exercice_5.swift in Sources */,
+				9F01A4FC20177CC100663FA2 /* ModalViewController.swift in Sources */,
+				9F01A4F620176EE600663FA2 /* Exercice_4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DCVFPAUQSB;
 				INFOPLIST_FILE = Exercice_6/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dams.Exercice-6";
@@ -289,6 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DCVFPAUQSB;
 				INFOPLIST_FILE = Exercice_6/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dams.Exercice-6";
