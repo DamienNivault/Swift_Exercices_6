@@ -25,19 +25,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q83-d5-QTB">
-                                <rect key="frame" x="166" y="428" width="82" height="30"/>
-                                <state key="normal" title="Clear cache"/>
-                                <connections>
-                                    <action selector="cacheButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lUJ-tf-obp"/>
-                                    <action selector="clearCache:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q4z-Sb-ttD"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4c5-Bu-QKr">
                                 <rect key="frame" x="191.66666666666666" y="353" width="31" height="30"/>
                                 <state key="normal" title="GO !"/>
                                 <connections>
                                     <action selector="changeView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UGJ-na-GPC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ey3-9t-AAX">
+                                <rect key="frame" x="166" y="454" width="82" height="30"/>
+                                <state key="normal" title="Clear cache"/>
+                                <connections>
+                                    <action selector="cacheButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oKs-IZ-1ub"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -47,11 +46,11 @@
                             <constraint firstItem="4c5-Bu-QKr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3X8-rj-WBA"/>
                             <constraint firstItem="4c5-Bu-QKr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3aV-sW-gXI"/>
                             <constraint firstItem="4c5-Bu-QKr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Buo-Cf-CiL"/>
-                            <constraint firstItem="Q83-d5-QTB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DFs-0r-Uo7"/>
                             <constraint firstItem="4c5-Bu-QKr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FvD-5v-Z2N"/>
-                            <constraint firstItem="Q83-d5-QTB" firstAttribute="top" secondItem="4c5-Bu-QKr" secondAttribute="bottom" constant="44.5" id="Uob-c9-2jW"/>
+                            <constraint firstItem="Ey3-9t-AAX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="R0b-FE-0fn"/>
                             <constraint firstItem="4c5-Bu-QKr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aG1-QA-Pe6"/>
                             <constraint firstItem="4c5-Bu-QKr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="edz-my-5Ks"/>
+                            <constraint firstItem="Ey3-9t-AAX" firstAttribute="top" secondItem="4c5-Bu-QKr" secondAttribute="bottom" constant="71" id="tvx-9F-tgr"/>
                             <constraint firstItem="4c5-Bu-QKr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xrN-v7-PmL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
