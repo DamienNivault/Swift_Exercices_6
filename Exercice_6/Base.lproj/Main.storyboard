@@ -97,19 +97,26 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bkQ-j5-7LM">
-                                <rect key="frame" x="87" y="95" width="240" height="128"/>
+                                <rect key="frame" x="80" y="95" width="254" height="128"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ex1-5Z-01S">
-                                <rect key="frame" x="366" y="120" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="373" y="120" width="39" height="30"/>
+                                <state key="normal" title="Close"/>
                                 <connections>
                                     <action selector="closeButton:" destination="ibk-qM-OPT" eventType="touchUpInside" id="PXJ-cM-uTI"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birthdate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJl-QZ-I7y">
+                                <rect key="frame" x="172" y="621.66666666666663" width="71" height="20.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="eJ4-HG-UYd" firstAttribute="trailing" secondItem="ex1-5Z-01S" secondAttribute="trailing" constant="20" id="Aqs-uj-j9g"/>
+                            <constraint firstItem="XJl-QZ-I7y" firstAttribute="centerX" secondItem="wio-iD-083" secondAttribute="centerX" id="P8p-KN-4SK"/>
                             <constraint firstItem="wio-iD-083" firstAttribute="centerX" secondItem="gMx-OC-nYJ" secondAttribute="centerX" id="R7V-Jv-6nl"/>
                             <constraint firstItem="bkQ-j5-7LM" firstAttribute="centerX" secondItem="gMx-OC-nYJ" secondAttribute="centerX" id="UFr-Nj-sDb"/>
                             <constraint firstItem="8QI-Es-Zoo" firstAttribute="top" secondItem="bkQ-j5-7LM" secondAttribute="bottom" constant="56" id="ZJ8-W0-yBM"/>
@@ -120,6 +127,7 @@
                             <constraint firstItem="8QI-Es-Zoo" firstAttribute="centerX" secondItem="gMx-OC-nYJ" secondAttribute="centerX" id="iHS-yY-KBb"/>
                             <constraint firstItem="b6b-nv-gf1" firstAttribute="centerX" secondItem="gMx-OC-nYJ" secondAttribute="centerX" id="jLB-9T-D92"/>
                             <constraint firstItem="zj4-5C-tCU" firstAttribute="top" secondItem="8QI-Es-Zoo" secondAttribute="bottom" constant="72.5" id="kbn-rH-KrI"/>
+                            <constraint firstItem="eJ4-HG-UYd" firstAttribute="bottom" secondItem="XJl-QZ-I7y" secondAttribute="bottom" constant="94" id="mDk-oO-moM"/>
                             <constraint firstItem="b6b-nv-gf1" firstAttribute="centerY" secondItem="gMx-OC-nYJ" secondAttribute="centerY" id="p5S-oV-ZDX"/>
                             <constraint firstItem="ex1-5Z-01S" firstAttribute="leading" secondItem="bkQ-j5-7LM" secondAttribute="trailing" constant="39" id="s7f-hR-PSw"/>
                             <constraint firstItem="wio-iD-083" firstAttribute="top" secondItem="b6b-nv-gf1" secondAttribute="bottom" constant="115" id="wv6-y9-z23"/>
@@ -127,10 +135,12 @@
                         <viewLayoutGuide key="safeArea" id="eJ4-HG-UYd"/>
                     </view>
                     <connections>
+                        <outlet property="birthdate" destination="XJl-QZ-I7y" id="fmY-zW-OTR"/>
                         <outlet property="dflkerngoer" destination="zj4-5C-tCU" id="d3V-EW-S0q"/>
                         <outlet property="email" destination="wio-iD-083" id="aCj-5h-IXh"/>
                         <outlet property="firstnameLabel" destination="8QI-Es-Zoo" id="AIP-Re-seq"/>
                         <outlet property="gender" destination="b6b-nv-gf1" id="eIf-Qu-F1E"/>
+                        <outlet property="outletClose" destination="ex1-5Z-01S" id="h3h-hp-qvI"/>
                         <outlet property="userImage" destination="bkQ-j5-7LM" id="Oku-6j-9sj"/>
                         <segue destination="BYZ-38-t0r" kind="presentation" identifier="closeModal" id="wG7-TM-EtI"/>
                     </connections>
