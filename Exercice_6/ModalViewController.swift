@@ -29,6 +29,7 @@ class ModalViewController: UIViewController {
             self.firstnameLabel.text = person.firstname
             self.dflkerngoer.text = person.lastname
             self.gender.text = person.gender.rawValue
+            self.email.text = person.email.description
             self.birthdate.text = person.birthdate.toString(format: "dd-MM-yyyy")
             let url = URL(string: person.picture)
         
